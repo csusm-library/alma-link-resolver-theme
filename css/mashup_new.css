@@ -1,3 +1,4 @@
+
 /*************MASHUP CSS******************
 
 mashup.css defines the design of all mashup screens.
@@ -143,12 +144,12 @@ table tbody tr:not(:last-child) {
     box-sizing: border-box
 } */
 
-/* body {
+body {
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     margin: 0;
-    padding-left: 90px
-} */
+    padding-left: 0;
+}
 
 /* a {
     color: #5C92BD;
@@ -316,9 +317,10 @@ table tbody tr:not(:last-child) {
     position: absolute
 } */
 
-/* .iframeHeaderContent .requestOption:first-of-type {
-    padding-left: 0
-} */
+.iframeHeaderContent .requestOption:first-of-type {
+    padding-left: 10px;
+    font-size: 14px;
+}
 
 /* .serialSelection,
 .itemsList,
@@ -535,6 +537,10 @@ table tbody tr:not(:last-child) {
     padding-right: .5em
 } */
 
+.itemsList table thead th:first-child {
+    display: none;
+}
+
 /* .itemsList table thead th:last-child {
     padding-right: 0
 } */
@@ -552,10 +558,15 @@ table tbody tr:not(:last-child) {
     font-size: .95em
 } */
 
-/* .itemsList table tbody tr td:first-child {
+.itemsList table tbody tr td:first-child {
     font-weight: 400;
-    color: #44707b
-} */
+    color: #44707b;
+    display: none;
+}
+
+.itemsList table tbody tr td:nth-child(3) {
+    display: none;
+} 
 
 /* .itemsList table tbody tr td:last-child {
     padding-right: 0
@@ -748,11 +759,11 @@ table tbody tr:not(:last-child) {
     display: none
 } */
 
-/* #selectIssueForm,
+#selectIssueForm,
 .paginationContainer,
 .itemsList {
-    max-width: 880px
-} */
+    max-width: 100%;
+} 
 
 /* .requestForm,
 .purchaseRequest,
@@ -787,11 +798,17 @@ table tbody tr:not(:last-child) {
     display: none
 } */
 
-/* .viewIt>ul>li a {
+.viewIt>ul>li a {
     font-weight: 600;
-    text-decoration: none
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
 }
- */
+
+.viewIt>ul>li:first-child a {
+    margin-top: 0;
+}
+
 /* .viewIt>ul>li a:after {
     margin-left: .5em
 } */
