@@ -541,6 +541,10 @@ body {
     display: none;
 }
 
+.itemsList table thead th:nth-child(3) {
+    display: none;
+}
+
 /* .itemsList table thead th:last-child {
     padding-right: 0
 } */
@@ -765,11 +769,11 @@ body {
     max-width: 100%;
 } 
 
-/* .requestForm,
+.requestForm,
 .purchaseRequest,
 .viewIt {
-    max-width: 690px
-} */
+    max-width: 100%;
+}
 
 /* .viewIt {
     background-color: white;
@@ -1276,13 +1280,12 @@ body {
     display: none
 } */
 
-/* .getitNoHoldings {
+.getitNoHoldings {
     line-height: 1.5;
     background-color: white;
     padding: 0.5em 0.75em;
     font-weight: 300;
-    background-color: #f1f1f1
-} */
+}
 
 /* .getitNoHoldings .submitAsLink {
     -webkit-appearance: none;
@@ -1315,17 +1318,19 @@ body {
     margin-left: 3px
 }
  */
-/* .getitNoHoldings .requestOptionNoHoldings input {
+
+.getitNoHoldings .requestOptionNoHoldings input {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     border: none;
     cursor: pointer;
-    margin: 0.5em 0 0.3em 0;
+    margin: 6px 10px 5px 0;
     background: none;
     color: #5C92BD;
-    padding: 0
-} */
+    padding: 0;
+    font-size: 16px;
+}
 
 /* .getitNoHoldings .requestOptionNoHoldings input:hover {
     color: black
