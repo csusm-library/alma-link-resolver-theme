@@ -336,13 +336,34 @@ body {
     text-align: left
 } */
 
-/* .paginationContainer {
-    padding: 0.5em 1em;
+.paginationContainer {
+    padding: 10px;
     border: 1px solid #EDEDED;
     border-bottom: none;
     border-top: none;
     color: rgba(51, 51, 51, 0.5)
-} */
+}
+
+.paginationContainer .pagination {
+    padding-bottom: 30px;
+}
+
+.paginationContainer li {
+    float: left;
+    color: #666;
+    margin-right: 10px;
+}
+
+.paginationContainer li input{
+    float: left;
+    color: #666;
+    font-size: 16px;
+    padding: 6px;
+}
+
+.spacer_after_1em {
+    margin-right: 30px;
+}
 
 /* .serialSelection {
     border: 1px solid #EDEDED;
