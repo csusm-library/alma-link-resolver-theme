@@ -804,12 +804,13 @@ body {
     font-weight: 300
 } */
 
-/* .viewIt>ul>li {
+.viewIt>ul>li {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex
-} */
+    margin-bottom: 10px;
+}
 
 /* .viewIt>ul>li+div:not(:last-child) {
     border-bottom: 1px solid #EDEDED;
@@ -824,10 +825,8 @@ body {
 } */
 
 .viewIt>ul>li a {
-    font-weight: 600;
+    font-weight: normal;
     text-decoration: none;
-    margin-top: 10px;
-    display: block;
 }
 
 .viewIt>ul>li:first-child a {
