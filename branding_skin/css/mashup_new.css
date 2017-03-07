@@ -1369,3 +1369,24 @@ body {
         background: #fffacd;
 }
 */
+
+/*Social login choose provider page */
+/*
+body.alma-social-login {height: 100%;font-family:Arial,verdana,sans-serif;background:#E2E2E2}
+.alma-social-login .box { box-shadow: 0px 3px 8px -4px black;border-radius:2px;background:#f6f6f6;padding:10px;text-align:center;min-height:130px;padding-top:10px;width:300px;margin:auto;margin-top:50px;}
+.alma-social-login .box .logo{margin-bottom:10px}
+.alma-social-login .box .btnContainer {margin:20px 0;height:35px;line-height:35px}
+.alma-social-login .signIn {color:#555555;font-size:24px;padding:10px 0;border-bottom:1px solid #E2E2E2}
+.alma-social-login button {box-shadow: 0px 3px 5px -4px #555;cursor:pointer;border-radius: 0;border: none;padding: 0;font-size:16px;color: white;vertical-align: middle;
+		text-decoration: none;padding-left: 55px;padding-right:5px;width:265px;text-align:left;height:35px;}
+.alma-social-login button.Facebook {background: #375aa7;background: #3b5998 url("/infra/images/icon_login_facebook.png") no-repeat scroll 0 0;
+		background-position:5px center, center center; background-repeat: no-repeat, repeat;display:inline-block}
+.alma-social-login button.Facebook:hover,
+.alma-social-login button.Facebook:focus{background: #5676bd url("/infra/images/icon_login_facebook.png") no-repeat scroll 0 0; background-position:5px center, center center; background-repeat: no-repeat, repeat;}
+.alma-social-login button.Google:hover ,
+.alma-social-login button.Google:focus {background: #cf6b60 url("/infra/images/icon_login_google.png") no-repeat scroll 0 0;background-position:5px center, center center; background-repeat: no-repeat, repeat;}
+.alma-social-login button.Google {background: #c33e2f url("/infra/images/icon_login_google.png") no-repeat scroll 0 0;background-position:5px center, center center; background-repeat: no-repeat, repeat;}
+.alma-social-login button.Twitter:hover ,
+.alma-social-login button.Twitter:focus {background: #37ceff url("/infra/images/icon_login_twitter.png") no-repeat scroll 0 0;background-position:5px center, center center; background-repeat: no-repeat, repeat;}
+.alma-social-login button.Twitter {background: #1da1f2 url("/infra/images/icon_login_twitter.png") no-repeat scroll 0 0;background-position:5px center, center center; background-repeat: no-repeat, repeat;}
+*/
