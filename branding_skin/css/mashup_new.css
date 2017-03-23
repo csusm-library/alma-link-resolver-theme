@@ -1186,7 +1186,12 @@ body {
     color: black
 } */
 
-/* #submitILLRequest,
+#submitBorder .submitBorder {
+    margin-left: -200px;
+    position: absolute;
+}
+
+#submitILLRequest,
 #submitPurchaseRequest,
 #exlidRequestTabFormSubmit {
     text-transform: uppercase;
@@ -1194,9 +1199,11 @@ body {
     cursor: pointer;
     border-radius: 3px;
     background-color: white;
-    border: none;
-    color: #5cb85c
-} */
+    border: 1px solid #ddd;
+    color: #3e9e3e;
+    font-size: 16px;
+    margin-top: 22px;
+}
 
 /* #submitILLRequest:hover,
 #submitPurchaseRequest:hover,
@@ -1222,11 +1229,12 @@ body {
     color: black
 } */
 
-/* .ui-datepicker .ui-datepicker-header,
+ui-datepicker .ui-datepicker-header,
 .ui-datepicker .ui-datepicker-calendar {
-    width: 100%
+    width: 100%;
+    height: 40px;
 }
- */
+
 /* .ui-datepicker .ui-datepicker-header {
     display: -webkit-box;
     display: -webkit-flex;
