@@ -20,6 +20,14 @@ table tbody tr:not(:last-child) {
     border-bottom: 1px solid #e4e4e4
 } */
 
+
+/* CSUSM custom */
+
+.libraryName {
+    display: none;
+}
+
+
 /* .light-action-button,
 .holdingInfo .locate,
 .holdingsList .locate,
@@ -216,13 +224,14 @@ body {
     margin: 5px 0
 } */
 
-/* .iframeHeader input[type="submit"] {
+.iframeHeader input[type="submit"] {
     -webkit-appearance: none;
     -moz-appearance: none;
     background-color: transparent;
     border: none;
-    color: #5C92BD
-} */
+    color: #5C92BD;
+    font-size: 15px;
+}
 
 /* .iframeHeader .back {
     position: absolute;
@@ -319,7 +328,7 @@ body {
 
 .iframeHeaderContent .requestOption:first-of-type {
     padding-left: 10px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 /* .serialSelection,
